@@ -1,0 +1,251 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.root{
+  width: 60%;
+  margin: 60px auto;
+  height: max-content;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 20px;
+  text-align: center;
+}
+.card img{
+  width: 100%;
+  height: 300px;
+  object-fit: contain;
+ 
+}
+.card{
+  color: #ffff;
+}
+
+nav {
+  width: 100%;
+  height: 70px;
+  padding: 0 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  background-color: black;
+}
+
+nav .centr {
+  display: flex;
+  gap: 50px;
+}
+.centr button{
+  background: #44d62c;
+  border: none;
+  border-radius: 3px;
+  color: white;
+}
+
+nav a {
+  color: #999;
+  text-align: center;
+}
+
+nav img {
+  width: 50px;
+}
+
+.tg {
+  width: 100%;
+  height: 50px;
+
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: gray;
+}
+
+.tg a {
+  color: white;
+}
+
+.tg h3 {
+  font-size: 15px;
+}
+
+.text1 h1 {
+  font-size: 38px;
+}
+
+.text1 {
+  text-align: center;
+  background: #111;
+  width: 100%;
+  height: 180px;
+  padding: 25px;
+}
+
+.text1 h1 {
+  color: #44d62c;
+}
+.text1 h4 {
+  color: #999;
+}
+
+.he1 {
+  text-align: center;
+  padding: 20px;
+  background: url(https://assets2.razerzone.com/images/pnx.assets/91baf798ef1e551ef8d4e850c28a0050/razer-edge-1920x700-desktop-cat-banner.jpg)
+    no-repeat center center/cover;
+  width: 100%;
+  height: 700px;
+}
+
+header h1 {
+  color: white;
+}
+header h3 {
+  color: white;
+  padding: 5px;
+  font-size: 15px;
+}
+
+header a {
+  color: #44d62c;
+}
+
+section {
+  height: max-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 18px;
+  padding: 35px 200px;
+  background: #252525;
+}
+section h3 {
+  color: white;
+  padding: 0 5px;
+  min-height: 19px;
+}
+
+section p {
+  color: #999;
+  padding: 25px 5px;
+  font-size: 11px;
+  min-height: 86px;
+}
+section a {
+  color: #44d62c;
+ min-height: 116px;
+  padding: 0 5px;
+}
+section img {
+  width: 355px;
+  height: 355px;
+}
+.card {
+  width: 355px;
+  height: 544px;
+  background: #111111;
+}
+.he2 {
+  padding: 35px;
+  text-align: center;
+  background: url(https://assets2.razerzone.com/images/pnx.assets/8d15cb8a565e71ef01f047785d22ce69/gothe-extramile-category-1920x700-desktop.jpg)
+    no-repeat center center/cover;
+  width: 100%;
+  height: 700px;
+}
+
+.root{
+  background: black;
+}
+.fit{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 50px;
+  padding: 20px;
+  color: #ffff;
+}
+.img2{
+  width: 106px;
+  height: 80px;
+}
+ .img3{
+  width: 48px;
+  height: 80px;
+ }
+ 
+ .img4{
+  width: 90px;
+  height: 80px;
+ }
+
+ 
+ .img5{
+  width: 90px;
+  height: 80px;
+ }
+
+ 
+ .img6{
+  width: 68px;
+  height: 80px;
+ }
+
+ 
+ .img7{
+  width: 42px;
+  height: 80px;
+ }
+
+ .img8{
+  width: 77px;
+  height: 80px;
+ }
+
+ .img9{
+  width: 99px;
+  height: 80px;
+ }
+
+ 
+ .img1{
+  width: 56.3px;
+  height: 80px;
+ }
+
+.link{
+  display: flex;
+  justify-content: space-between;
+ align-items: center;
+
+  padding: 30px 185px;
+  color: white;
+}
+
+.link a{
+
+  color: white;
+}
+.link img{
+  width: 30px;
+  height: 45px;
+}
+
+.tex1{
+  color: #ffff;
+  padding-bottom: 10px;
+  width: 80%;
+  margin: 0 auto;
+  border-bottom: 5px solid #44d62c;
+}
+.link h1{
+  color: #44d62c;
+}
